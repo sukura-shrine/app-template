@@ -1,5 +1,5 @@
 import path from 'path'
-import { defineConfig } from '@dian/vite'
+import { defineConfig } from 'vite'
 import react from 'vite-preset-react'
 import pkg from './package.json'
 
