@@ -8,5 +8,5 @@ dist
 
 # misc
 .DS_Store
-
+.editorconfig
 .idea
