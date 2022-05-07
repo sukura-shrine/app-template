@@ -5,8 +5,8 @@
 
 # production
 dist
+.pnpm-debug.log
 
 # misc
 .DS_Store
-
 .idea
