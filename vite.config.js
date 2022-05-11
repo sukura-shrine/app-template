@@ -1,6 +1,6 @@
 import path from 'path'
 import { defineConfig } from 'vite'
-import react from 'vite-preset-react'
+import react from '@vitejs/plugin-react'
 import pkg from './package.json'
 
 const cwd = process.cwd()
