@@ -9,7 +9,7 @@ const server = {
   headers: {
     'Access-Control-Allow-Origin': '*',
   },
-  port: pkg.shrine.port,
+  port: pkg.hakushin.port,
   proxy: {},
   host: '0.0.0.0',
 }
