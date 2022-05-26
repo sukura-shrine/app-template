@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "preinstall": "npx only-allow pnpm && husky install",
     "micro": "node node/micro.js"
