@@ -3,8 +3,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "preinstall": "npx only-allow pnpm && husky install",
-    "micro": "node node/micro.js"
+    "preinstall": "npx only-allow pnpm && husky install"
   },
   "author": "",
   "license": "",
