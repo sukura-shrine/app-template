@@ -19,8 +19,10 @@
     "vite": "2.9.5"
   },
   "dependencies": {
+    "qiankun": "^2.7.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "swr": "^1.0.1"
+    "swr": "^1.0.1",
+    "vite-plugin-qiankun": "^1.0.14"
   }
 }
