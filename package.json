@@ -3,7 +3,10 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "preinstall": "npx only-allow pnpm && husky install"
+    "preinstall": "npx only-allow pnpm && husky install",
+    "cp": "haku create",
+    "start": "haku start",
+    "micro": "haku micro"
   },
   "author": "",
   "license": "",
