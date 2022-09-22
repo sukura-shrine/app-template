@@ -10,7 +10,7 @@ type AppProp = {
 let root
 
 function render (props: AppProp) {
-  root = ReactDOM.createRoot(document.getElementById('app'))
+  root = ReactDOM.createRoot(document.getElementById('app') as Element)
   root.render(
     <React.StrictMode>
       <div>App</div>
