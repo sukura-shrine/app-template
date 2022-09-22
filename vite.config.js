@@ -23,8 +23,6 @@ if (process.env.NODE_ENV === 'production') {
   base = `http://localhost:${server.port}/`
 }
 
-const reactPlugins = react().filter(item => item.name !== 'vite:react-refresh')
-
 export default defineConfig({
   base,
   resolve: {
@@ -33,7 +31,7 @@ export default defineConfig({
     ],
   },
   plugins: [
-    reactPlugins,
+    react(),
     qiankun(pkg.name, { useDevMode: true }),
   ],
   optimizeDeps: {
