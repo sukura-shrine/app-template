@@ -1,7 +1,7 @@
 import path from 'path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import qiankun from 'vite-plugin-qiankun'
+import postcsspxtoviewport from 'postcss-px-to-viewport'
 import pkg from './package.json'
 
 const cwd = process.cwd()
@@ -30,9 +30,17 @@ export default defineConfig({
       { find: '@', replacement: path.join(cwd, './src') },
     ],
   },
+  css: {
+    postcss: {
+      plugins: [
+        postcsspxtoviewport({
+          viewportWidth: 1920,
+        })
+      ],
+    }
+  },
   plugins: [
     react(),
-    qiankun(pkg.name, { useDevMode: true }),
   ],
   optimizeDeps: {
   },
