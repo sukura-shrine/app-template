@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react'
-import { createBrowserRouter, RouterProvider  } from "react-router-dom"
+import { RouterProvider  } from "react-router-dom"
 import { QueryClient, QueryClientProvider } from 'react-query'
 import GlobalModel, { GlobalContext } from './global-model'
 import router from './router'
